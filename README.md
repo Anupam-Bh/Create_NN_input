@@ -1,6 +1,6 @@
 # Create_NN_input
 
-This matlab based script reads downloaded bandstructure images and creates input for NN model. Two matrices are saved viz. X and Y. The X matrix has the pixel information from the images and acts as input in NN model whereas Y is a vector acting as the target of the NN.
+This matlab based script reads downloaded bandstructure images (using https://github.com/AnupamBiitd/Download_Materials_Project_bandstructre repo) and creates input for NN model. Two matrices are saved viz. X and Y. The X matrix has the pixel information from the images and acts as input in NN model whereas Y is a vector acting as the target of the NN.
 
 The bandstructure image is divided into 5X5 segments like below:
 
